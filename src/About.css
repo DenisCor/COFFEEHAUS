@@ -1,0 +1,9 @@
+.about-main-container {
+  text-align: center;
+  height: 70vh;
+  border: 10px solid white;
+  margin-left: 0.5rem;
+
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,59 @@
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  background-color: black;
+  padding: 1rem 0;
+}
+
+.slick-slider {
+  background-color: black;
+  width: 80vw;
+  height: 50vh;
+  padding: 0 1rem;
+}
+
+.slick-slide img {
+  display: block;
+  height: 50vh;
+}
+
+@media all and (max-width: 767px) {
+  .slick-slide img {
+    width: 80vw;
+    background-size: cover;
+  }
+  .slick-slider {
+    padding: 0rem;
+  }
+}
+html.clicking .img-carousel-img:focus {
+  outline: none;
+}
+
+.slick-dots li button:before {
+  color: white !important;
+  margin-top: 1rem;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  content: '' !important;
+}
+
+.carousel-left-arrow {
+  height: 1.7rem;
+  margin-right: 1rem;
+  transform: rotate(180deg);
+}
+
+.carousel-right-arrow {
+  height: 1.7rem;
+  padding-left: 0.3rem;
+}
+
+.carousel-left-arrow:active,
+.carousel-right-arrow:active {
+  height: 1.5rem;
+}
