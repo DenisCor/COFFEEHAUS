@@ -35,11 +35,11 @@ const Menu = () => {
   ];
 
   const milkshakes = [
-    { id: 1, item: 'Vanilla Milk Shake', price: '3.75' },
-    { id: 2, item: 'Chocolate Milk Shake', price: '4.00' },
-    { id: 3, item: 'Coffee Milk Shake', price: '4.50' },
-    { id: 4, item: 'Strawberry Milk Shake', price: '4.00' },
-    { id: 5, item: 'Mint Milk Shake', price: '4.50' },
+    { id: 1, item: 'Vanilla Milkshake', price: '3.75' },
+    { id: 2, item: 'Chocolate Milkshake', price: '4.00' },
+    { id: 3, item: 'Coffee Milkshake', price: '4.50' },
+    { id: 4, item: 'Strawberry Milkshake', price: '4.00' },
+    { id: 5, item: 'Mint Milkshake', price: '4.50' },
   ];
   const breakfast = [
     { id: 1, item: 'English Breakfast', price: '6.50' },

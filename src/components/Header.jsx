@@ -76,6 +76,9 @@ const Header = () => {
               // paddingRight: '1rem',
               color: 'white',
             }}
+            onClick={() => {
+              scrollToElement('Contact');
+            }}
           >
             ABOUT
           </Button>

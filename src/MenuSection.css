@@ -236,6 +236,11 @@ hr {
     padding: 0rem;
   }
 
+  .toolbar {
+    display: flex;
+    justify-content: center;
+  }
+
   .symbol {
     width: 1.5em;
     padding: 0 3rem;
@@ -310,6 +315,9 @@ hr {
     background-image: none;
     background-color: black;
     padding: 0rem;
+  }
+  .socialmedia-main {
+    bottom: 10vh;
   }
   body {
     background-color: black;

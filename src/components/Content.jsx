@@ -94,7 +94,7 @@ const Content = () => {
 
             <h3>
               SCROLL
-              <ExpandMoreIcon fontSize='large' />
+              <ExpandMoreIcon fontSize='medium' />
             </h3>
           </div>
           <div className='vidoverlay'></div>
