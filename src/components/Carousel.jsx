@@ -71,28 +71,28 @@ class Carousel extends React.Component {
     return (
       <Slider {...settings}>
         <div className='img-container'>
-          <img src='./img/Im111.jpg' className='carousel-img' />
+          <img src='./img/Im111.jpg' alt='img1' className='carousel-img' />
         </div>
         <div>
-          <img src='./img/Im222.jpg' className='carousel-img' />
+          <img src='./img/Im222.jpg' alt='img2' className='carousel-img' />
         </div>
         <div>
-          <img src='./img/Im333.jpg' className='carousel-img' />
+          <img src='./img/Im333.jpg' alt='img3' className='carousel-img' />
         </div>
         <div>
-          <img src='./img/Im444.jpg' className='carousel-img' />
+          <img src='./img/Im444.jpg' alt='img4' className='carousel-img' />
         </div>
         <div>
-          <img src='./img/Im555.jpg' className='carousel-img' />
+          <img src='./img/Im555.jpg' alt='img5' className='carousel-img' />
         </div>
         <div>
-          <img src='./img/Im666.jpg' className='carousel-img' />
+          <img src='./img/Im666.jpg' alt='img6' className='carousel-img' />
         </div>
         <div>
-          <img src='./img/Im777.jpg' className='carousel-img' />
+          <img src='./img/Im777.jpg' alt='img7' className='carousel-img' />
         </div>
         <div>
-          <img src='./img/Im888.jpg' className='carousel-img' />
+          <img src='./img/Im888.jpg' alt='img8' className='carousel-img' />
         </div>
       </Slider>
     );

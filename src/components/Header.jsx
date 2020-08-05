@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppBar, Toolbar, Typography } from '@material-ui/core';
+import { AppBar, Toolbar } from '@material-ui/core';
 import { makeStyles } from '@material-ui/styles';
 import { scroller } from 'react-scroll';
 import { Button, ButtonGroup } from '@material-ui/core';
