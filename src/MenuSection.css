@@ -308,6 +308,21 @@ hr {
   .socialmedia-main {
     display: none;
   }
+  .mainMenuHeader {
+    display: none;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  #safari {
+    display: block;
+  }
+  .mainMenuHeader {
+    display: none;
+  }
+  .divsymbol {
+    display: none;
+  }
 }
 
 @media all and (max-width: 1024px) {
