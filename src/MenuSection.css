@@ -107,7 +107,7 @@ hr {
 /*  ----------------------------------------- */
 /* -------------- CONTACT ------------- */
 .contact-container {
-  background-image: url('./img/coffetable222.png');
+  background-image: url('./img/coffetable222.jpg');
   background-position: center;
   background-size: cover;
   background-color: black;
@@ -234,6 +234,7 @@ hr {
     background-color: black !important;
     background-image: none;
     padding: 0rem;
+    margin-top: 3rem;
   }
 
   .toolbar {
@@ -330,6 +331,7 @@ hr {
     background-image: none;
     background-color: black;
     padding: 0rem;
+    margin-top: 3rem;
   }
   .socialmedia-main {
     bottom: 10vh;
